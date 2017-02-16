@@ -123,7 +123,7 @@
     </bean>  
       
     <bean id="primaryAuthenticationHandler"  
-          class="org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler"  
+          class="com.ways.cas.jdbc.support.WaysQueryDatabaseAuthenticationHandler"  
           p:dataSource-ref="dataSource"  
           p:passwordEncoder-ref="MD5PasswordEncoder"  
           p:sql="select password from da_user where login_id=?" />  

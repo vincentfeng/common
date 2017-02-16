@@ -1370,6 +1370,7 @@
         <module>cas-server-core</module>
         <module>cas-server-webapp</module>
         <module>cas-server-webapp-support</module>
+        <module>cas.core</module> <!-- add by vincent -->
         <module>cas-server-support-generic</module>
         <module>cas-server-support-jdbc</module>
         <module>cas-server-support-oauth</module>

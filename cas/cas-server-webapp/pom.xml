@@ -45,6 +45,13 @@
 	      <artifactId>cas-server-support-jdbc</artifactId>
 	      <version>${project.version}</version>
 	    </dependency>
+	    
+	    <!-- add by vincent -->
+		<dependency>
+	      <groupId>com.ways</groupId>
+	      <artifactId>cas.core</artifactId>
+	      <version>${project.version}</version>
+	    </dependency>
 			
 		<dependency>
 			<groupId>org.springframework</groupId>
